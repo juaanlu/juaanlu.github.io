@@ -1,0 +1,44 @@
+body { background-image: url('../images/fondo.jpg'); background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: darkgray; 
+    color: white;   
+    border-left: 10px solid red;
+}
+
+img {
+    width: 350px;
+    border: solid 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 4px rgb(0, 0, 0) ;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+li {
+    border: solid 1px;
+    display: inline;
+    text-align: unset;
+    padding: 5px;
+}
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
