@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 40px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #441f6e;
+}
+.cosas {
+  background: rgba(15, 7, 25, 0.8); 
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(138, 43, 226, 0.3);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.15); 
+  max-width: 900px;
+}
+
+
+.cosas:hover {
+  box-shadow: 0 0 60px rgba(255, 255, 255, 0.25); 
+}
+
+a{
+    color: antiquewhite;
+    text-decoration:none;
+}
+
+a:hover { 
+    text-decoration: underline;
+    border: solid 1px violet;}
+

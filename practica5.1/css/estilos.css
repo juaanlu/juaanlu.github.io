@@ -160,7 +160,7 @@ p {
 
   /* necesitas 4 instrucciones. 3 son distancia a los bordes :)*/
   /*1: */ top: 40%;
-  /*2: */ position: fixed;   
+  /*2: */ position:absolute;   
   /*3: */ left: 11%;
   /*4: */ width: 80%;
   border:2px solid red;
@@ -262,7 +262,7 @@ p {
   #header {
     /*
     Cambio el margen para que no lo tape el menu
-    */marg
+    */
     margin-top: 100px;
   }
 }
