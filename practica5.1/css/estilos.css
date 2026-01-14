@@ -262,7 +262,7 @@ p {
   #header {
     /*
     Cambio el margen para que no lo tape el menu
-    */
+    */marg
     margin-top: 100px;
   }
 }
