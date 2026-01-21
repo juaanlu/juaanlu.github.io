@@ -1,56 +1,228 @@
-#body{
-    background: url(./images/costillas.jpg);
+*{
+  margin: 0px auto;
 }
-
+body {
+  background: url('./images/fondo.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+h3{
+  color:#ff0000;
+}
+h1, h2 {
+  text-align: center;
+}
+img {
+  margin: 10px;
+  width: 200px;
+}
+ul {
+  color: rgb(223, 56, 56);
+}
+p {
+  margin-bottom: 5px;
+}
+#encabezado {
+  margin-top: 25px;
+  text-align: center;
+  background-color: #000000;
+  border-bottom: 5px solid #ff0000;
+  color: white;
+  padding-top: 10px;
+}
+#content{
+  
+}
 #menu {
   width: 100%; 
   top: 0px;
+  position: fixed;
   text-align: center;  
-  background-color: #95cf52;
-  border-bottom: 5px solid #144633;
-  border-top: 5px solid #144633;
-  font-family: 'Pacifico', cursive;
+  background-color: #000000;
+  border-top: 5px solid #ff0000;
   font-size: 1.2em;
 }
-
 #menu a{
-   color: rgb(143, 32, 32);
-   text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-
-
 #menu li{
   display: inline;
   padding-left: 5px;  
 }
-
 #menu li a:hover{
-   background-color: rgb(95, 255, 2) ;
-   text-decoration: underline rgb(7, 6, 6);
-   color: rgb(0, 0, 0);
+  background-color: rgb(179, 162, 131) ;
+  text-decoration: underline rgb(202, 103, 78);
+}
+#footer{
+   width: 100%; 
+  bottom: 0px;
+  position: fixed;
+  text-align: center;  
+  background-color: #000000;
+  border-top: 5px solid #ff0000;
+  border-bottom: 5px solid #ff0000;
+  font-size: 1.2em;
+  color: white;
+  
+}
+#footer a{
+  color: rgb(197, 68, 68);
+  text-decoration: none;
+}
+#footer a:hover{
+  color: #a895cc;
+  background-color: rgb(65, 38, 38);
+  text-decoration: none;
+}
+#imagen {
+  text-align: right;
+  margin-right: 60px;
+}
+#imagenromper1{
+  float: left;
+  text-align: center;
+  padding-bottom: 5px;
+  
+}
+#imagenromper {
+  float: right;
+  text-align: center;
+  padding-bottom: 5px;
+}
+#imagenroto {
+  float: right;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  
+}
+#final {
+clear:both;
+}
+#imagenbate {
+ float: left;  
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-#encabezado {
-    width: 100%;
-  margin-top: 5px;
+#textCookie {
   text-align: center;
-  background-color: #95cf52;
-  border-bottom: 5px solid #144633;
-  border-top: 5px solid #144633;
-  color: rgb(143, 32, 32);
-  padding-top: 10px;
 }
-#cookie{
-  top: 40%;
+strong { color: #ff0000;}
+#cookieEU {
+ top: 40%;
   position:absolute;   
   left: 11%;
-  width: 80%;
+   width: 80%;
   border:2px solid red;
   background-color: white;
   margin-bottom: 5px;
   padding-bottom: 5px;
   box-shadow: 2px 2px 50px black;
 }
-#textcookie{
+
+#final {
+ background-color: #000000;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  height: 250px;
+  text-align: justify;
+  border: 5px solid black;
+  color: white;
+  padding: 20px;
+  margin-right: 20px;
+  border: 5px double rgb(202, 58, 58);
+   border-radius: 30px 30px 30px 30px ;
+}
+
+#rage2 {
+  margin-top: 10px;
+  padding: 15px;
+  border: 5px double rgb(202, 58, 58);
+  background-color: rgb(0, 0, 0);
+  margin: 10px 250px ;
+  border-radius: 30px 30px 30px 30px ;  
+  color: white;   
+}
+#rage3 {
+  margin-top: 10px;
+  padding: 15px;
+  border: 5px double rgb(202, 58, 58);
+  background-color: rgb(0, 0, 0);
+  margin: 10px 250px ;
+  border-radius: 30px 30px 30px 30px ;  
+  color: white;   
+  margin-left: 10px;
+}
+
+.button {
+  	background-color: #ff0000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@media all and (max-width: 500px) {
+  img{
+    width: 130px;
+  }
+  #imagenromper1 {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  #imagenromper {
+    float: none;
+    text-align: center;
+    
+  padding-bottom: 5px;
+  }
+  
+  #rage3 {
+    margin:0 0;
+    margin-top: 10px;
+  }
+  #rage2 {
+    margin:0 0;
+  }
+
+  #final{
+    margin-top: 10px;
+    margin-right: 0px;
+    padding-top: 5px;
+  }
+  
+  #imagenbate {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #imagenroto {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #textOverflow {
+    margin-right: 0px;
+  }
+  
+  #encabezado {
+    margin-top: 50px;
+  }
+ 
+}
+
+@media all and (max-width: 300px) {
+  #encabezado {
+    margin-top: 100px;
+  }
 }
